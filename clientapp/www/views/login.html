@@ -1,0 +1,22 @@
+﻿<div id="login_bckg"></div>
+<div id="login_form">
+    <img id="login_image" class="" src="css/images/korisnik.svg" />
+    <div class="input_div_l">
+        <i class="glyphicon-user glyphicon"></i>
+        <input id="login_username" type="text" name="username" placeholder="Username" class="" />
+    </div>
+    <div class="input_div_l">
+        <i class="glyphicon-eye-open glyphicon"></i>
+        <input id ="login_password" type="password" placeholder="Password" name="password" class="" />
+    </div>
+    <button id="loginButtonLog" onclick="tryLogin(event)">
+        <i class="glyphicon glyphicon-send"></i>
+        Login
+    </button>
+    <button id="loginButtonReg" onclick="register()">
+        <i class="glyphicon glyphicon-check"></i>
+        Register
+    </button>
+</div>
+<div id="loaderContainerLogin"></div>
+<script type="text/javascript" src="view_scripts/login.js"></script>

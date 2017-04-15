@@ -1,0 +1,28 @@
+﻿<div id="register_bckg"></div>
+<div id="register_form">
+    <div class="input_div">
+        <label for="username">Username:</label>
+        <i class="glyphicon glyphicon-user"></i>
+        <input id="register_username" type="text" name="username" placeholder="Username" class="" />
+    </div>
+    <div class="input_div">
+        <label for="email">Email:</label>
+        <i class="glyphicon glyphicon-envelope"></i>
+        <input id="register_email" type="email" name="email" placeholder="Email" class="" />
+    </div>
+    <div class="input_div">
+        <label for="Password">Password:</label>
+        <i class="glyphicon glyphicon-eye-open"></i>
+        <input id="register_password" type="password" placeholder="Password" name="password" class="" />
+    </div>
+    <button id="registerButtonReg" onclick="tryRegister()">
+        <i class="glyphicon glyphicon-send"></i>
+        Register
+    </button>
+    <button id="registerButtonBck" onclick="login()">
+        <i class="glyphicon glyphicon-arrow-left"></i>
+        Back
+    </button>
+</div>
+<div id="loaderContainerRegister"></div>
+<script type="text/javascript" src="view_scripts/register.js"></script>
